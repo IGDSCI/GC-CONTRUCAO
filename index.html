@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>GC Construção</title>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="div-header">
+                <h1>GC Construção</h1>
+                <div class="div-header-sections" id="id-sections">
+                    <a href="#id-home"><h4 class="section-text" onclick="closeMenu()">HOME</h4></a>
+                    <a href="#id-about"><h4 class="section-text" onclick="closeMenu()">SOBRE</h4></a>
+                    <a href="#id-portfolio"><h4 class="section-text" onclick="closeMenu()">PORTFÓLIO</h4></a>
+                    <a href="#id-accordion"><h4 class="section-text" onclick="closeMenu()">P&R</h4></a>
+                </div>
+                <div class="small-menu">
+                    <h3 class="bi bi-list" id="menu-icon" style="font-size: 28px; margin: 0;" onclick="openMenu()"></h3>
+                    <h3 class="bi bi-x-lg" id="close-icon" style="font-size: 28px; display: none; margin: 0;" onclick="openMenu()"></h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="background" id="id-home">
+            <div class="background-text">
+                <h2 class="title-background">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+                <h4 class="description-background">Placeat culpa libero facilis, qui odit praesentium deleniti cupiditate facere</h4>
+            </div>
+        </div>
+        <div class="container-about" id="id-about">
+            <div class="div-about">
+                <div>
+                    <h1 class="text-about">SOBRE NÓS</h1>
+                    <div class="container-card">
+                        <div>
+                            <i class="bi bi-house-door" id="house-icon"></i>
+                            <h1 class="title-about">Veritatis perferendis</h1> 
+                            <h4 class="description-about">Reiciendis, officiislea praesentium molestiae itaque officiis voluptas libero itimso palis.</h4>
+                        </div>
+                        <div>
+                            <i class="bi bi-palette" id="house-icon"></i>
+                            <h1 class="title-about">Veritatis perferendis</h1> 
+                            <h4 class="description-about">Reiciendis, officiislea praesentium molestiae itaque officiis voluptas libero itimso palis.</h4>
+                        </div>
+                    </div>
+                    <div class="container-card" style="margin-top: 1rem;">
+                        <div>
+                            <i class="bi bi-rulers" id="house-icon"></i>
+                            <h1 class="title-about">Veritatis perferendis</h1> 
+                            <h4 class="description-about">Reiciendis, officiislea praesentium molestiae itaque officiis voluptas libero itimso palis.</h4>
+                        </div>
+                        <div>
+                            <i class="bi bi-hammer" id="house-icon"></i>
+                            <h1 class="title-about">Veritatis perferendis</h1> 
+                            <h4 class="description-about">Reiciendis, officiislea praesentium molestiae itaque officiis voluptas libero itimso palis.</h4>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/imgAbout.jpg" class="img-about">
+            </div>
+        </div>
+        <div class="div-say">
+            <div class="teste">
+                <h1 class="tittle-say">O QUE ACHAM DE NÓS</h1>
+                <div class="container-say">
+                    <div class="card-say">
+                        <h4 class="text-say">"eligendi consectetur debitis maiores ea illo illum quos aut, sapiente perferendis doloremque deserunt. Dicta, minus voluptate"</h4>
+                        <div class="div-img-say">
+                            <img src="img/comentario1.png" class="img-say">
+                            <div class="info-say">
+                                <h4>Frankie Kao</h4>
+                                <h4>CEO</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-say">
+                        <h4 class="text-say">"Temporibus possimus cum rem repudiandae ipsam eaque tenetur eum consequuntur sapiente perferendis doloremque deserunt."</h4>
+                        <div class="div-img-say">
+                            <img src="img/comentario2.png" class="img-say">
+                            <div class="info-say">
+                                <h4>Dean Casie</h4>
+                                <h4>Advogado</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-say">
+                        <h4 class="text-say">"Rerum animi ut cum pariatur, neque quibusdam officia magnam earum qui, quaerat nihil dolor maiores ea illo illum quos aut"</h4>
+                        <div class="div-img-say">
+                            <img src="img/comentario3.png" class="img-say">
+                            <div class="info-say">
+                                <h4>Blanche Fields</h4>
+                                <h4>Médico</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-slider" id="id-portfolio">
+            <h1 class="tittle-portfolio">PORTIFÓLIO</h1>
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <img src="img/casaP1.jpg" class="home-portfolio" id="slider-01">
+                    <img src="img/casaP2.jpg" class="home-portfolio" id="slider-02">
+                    <img src="img/casaP3.jpg" class="home-portfolio" id="slider-03">
+                    <img src="img/casaP4.jpg" class="home-portfolio" id="slider-04">
+                </div>
+                <div class="slider-nav">
+                    <a href="#slider-01"></a>
+                    <a href="#slider-02"></a>
+                    <a href="#slider-03"></a>
+                    <a href="#slider-04"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-container" id="id-accordion">
+            <div class="containerPR">
+                <h1>PERGUTAS E RESPOSTAS</h1>
+                <div id="container-accordion">
+                    <div class="accordion">
+                        <button class="accordion-header">
+                            <span>Quem somos nós?</span>
+                            <i class="bi bi-caret-down arrow"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fugiat suscipit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <button class="accordion-header">
+                            <span>Como realizar orçamento?</span>
+                            <i class="bi bi-caret-down arrow"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fugiat suscipit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <button class="accordion-header">
+                            <span>Qual o tempo da obra?</span>
+                            <i class="bi bi-caret-down arrow"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fugiat suscipit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <button class="accordion-header">
+                            <span>Quais os materiais utilizados?</span>
+                            <i class="bi bi-caret-down arrow"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fugiat suscipit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
